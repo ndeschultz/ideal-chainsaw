@@ -19,11 +19,14 @@ creation of HTML based CV for improving designing flexibility
 - Function to print HTML CV to .pdf
 
 ## roadmap
+
 **until 05.02**
 - HTML page + design
+
 **until 07.02.**
 - API and backend
 - Print to .pdf
 
 ## requests
-- **tbd**
+
+**tbd**
