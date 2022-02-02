@@ -1,0 +1,54 @@
+@page{
+	size: 21cm 29.7cm;
+	margin: 30mm 45mm 30mm 45mm;
+	background: linear-gradient(gray, blueviolet);
+}
+
+.verflex {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.horflex {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+.pinfodiv {
+	flex-grow: 1;
+}
+.pinfo {
+	flex-grow: 3;
+	border: solid;
+	border-radius: 5px;
+	background: linear-gradient(gray,lightblue);
+}
+.ppic {
+	flex-grow: 2;
+	border: solid;
+	border-width: 5px 5px 0px 0px;
+}
+.timelinediv {
+	flex-grow: 2;
+}
+.timelinegraph {
+	flex-grow: 1;
+	border: solid;
+	border-radius: 5px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	background: linear-gradient(white, lightyellow);
+}
+.timelineinfo {
+	flex-grow: 3;
+	border: solid;
+	border-width: 0px 5px 5px 0px;
+}
+.pinterest {
+	flex-grow: 2;
+	border: solid;
+	border-radius: 5px;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	background: linear-gradient(mediumseagreen, palegreen);
+}
