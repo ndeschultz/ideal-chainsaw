@@ -6,7 +6,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>HTML CV</title>
     <link rel="stylesheet" type="text/css" href="cv.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 </head>
+
+<script type="text/javascript" src="script.js"></script>
 
 <body style="height: 29.7cm; width: 21cm;">
     <div class="main-grid">
@@ -27,7 +30,9 @@
                         <div class="timestamp">
                             Juli 2004
                         </div>
-                        <div class="item-title"></div>
+                        <div class="item-title">
+                            Schullaufbahn Abitur usw...
+                        </div>
                     </li>
                     <li class="rb-item" ng-repeat="itembx">
                         <div class="timestamp">
@@ -47,17 +52,18 @@
                         </div>
                         <div class="item-title">Lucas McAlister just send you a message.</div>
                     </li>
-                    <li class="rb-item" ng-repeat="itembx">
-                        <div class="timestamp">
-                            vorraussichtlich 2022
-                        </div>
-                        <div class="item-title">Lucas McAlister just send you a message.</div>
-                    </li>
                 </ul>
             </div>
-            
             <div class="p-interest">
                 <p>Personal Interests</p>
+                <div class="p-interest-graphs">
+                    <div>
+                        <canvas id="myChart" width="300px" height="300px" font-size="100px"></canvas>
+                    </div>
+                    <div>
+                        <canvas id="donut" width="300px" height="300px"></canvas>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
